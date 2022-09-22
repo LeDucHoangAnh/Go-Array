@@ -12,4 +12,8 @@ func main() {
 	fmt.Println(myArray)
 	myArray[3] = 10
 	fmt.Println(myArray)
+
+	//khai báo và khởi tạo giá trị
+	arrays := [3]int{1, 2, 3}
+	fmt.Println(arrays)
 }
