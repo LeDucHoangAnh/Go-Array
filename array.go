@@ -20,4 +20,7 @@ func main() {
 	//khai báo nhưng khởi tạo không đủ giá trị
 	arrays2 := [3]int{100} //100 sẽ được gán vào phần tử đầu tiên
 	fmt.Println(arrays2)   //[100 0 0]
+
+	//size mang
+	fmt.Println(len(arrays))
 }
