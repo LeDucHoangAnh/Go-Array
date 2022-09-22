@@ -61,4 +61,12 @@ func main() {
 	}
 
 	fmt.Println(matrix)
+
+	//loop
+	for i := 0; i < 4; i++ {
+		for j := 0; j < 2; j++ {
+			fmt.Print(matrix[i][j], " ")
+		}
+		fmt.Println()
+	}
 }
