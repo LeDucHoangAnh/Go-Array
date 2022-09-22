@@ -49,4 +49,16 @@ func main() {
 	for index, value := range countries {
 		fmt.Printf("i = %d value = %s ", index, value)
 	}
+	//Blank-identifier = _
+
+	//Mang 2 chieu [][]
+
+	matrix := [4][2]int{
+		{1, 2},
+		{10, 22},
+		{15, 25},
+		{13, 27},
+	}
+
+	fmt.Println(matrix)
 }
