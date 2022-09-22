@@ -21,6 +21,10 @@ func main() {
 	arrays2 := [3]int{100} //100 sẽ được gán vào phần tử đầu tiên
 	fmt.Println(arrays2)   //[100 0 0]
 
-	//size mang
+	//size mảng:sử dụng len()
 	fmt.Println(len(arrays))
+
+	//khai báo mảng không cần set size
+	arrays3 := [...]string{"Merc", "Porch", "Toyo"}
+	fmt.Println(arrays3)
 }
