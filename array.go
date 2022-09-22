@@ -24,7 +24,21 @@ func main() {
 	//size mảng:sử dụng len()
 	fmt.Println(len(arrays))
 
-	//khai báo mảng không cần set size
+	//**khai báo mảng không cần set size**
 	arrays3 := [...]string{"Merc", "Porch", "Toyo"}
 	fmt.Println(arrays3)
+
+	//array là value type không phải là reference type**
+	//value type
+	//reference type:
+	countries := [...]string{"VN", "US", "UK", "JP"}
+	copyCountries := countries // countries1 = countries,  copyCountries = countries1
+
+	// a->(A) b = a <-> b -> (A) b = xyx
+
+	copyCountries[0] = "Canada"
+	fmt.Println(countries)
+	fmt.Println(copyCountries)
+	fmt.Println(countries)
+
 }
