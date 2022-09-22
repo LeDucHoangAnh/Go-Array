@@ -40,5 +40,13 @@ func main() {
 	fmt.Println(countries)
 	fmt.Println(copyCountries)
 	fmt.Println(countries)
-
+	//Loop array
+	//C1
+	for i := 0; i < len(countries); i++ {
+		fmt.Println(countries[i])
+	}
+	//C2
+	for index, value := range countries {
+		fmt.Printf("i = %d value = %s ", index, value)
+	}
 }
